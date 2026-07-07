@@ -10,10 +10,7 @@ repository with exercises and implementations in C language
 -Pointer
 -Dynamic memory allocation 
 -Abstract Data Type (ADT) structure
--Singly linked list
--Doubly linked list
--Circular linked list
--Circular doubly linked list
+-Linked list
 -Stack
 -Queue
 -Sorting algorithm
