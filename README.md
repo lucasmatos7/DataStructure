@@ -17,6 +17,7 @@ repository with exercises and implementations in C language
 -Binary Tree (BT)
 -Binary search tree (BST)
 -Balanced Tree (AVL)
+-Graphs
 -B tree
 -B+ tree
 
