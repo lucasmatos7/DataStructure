@@ -14,6 +14,11 @@ repository with exercises and implementations in C language
 -Stack
 -Queue
 -Sorting algorithm
+-Binary Tree (BT)
+-Binary search tree (BST)
+-Balanced Tree (AVL)
+-B tree
+-B+ tree
 
 # Goal
 
