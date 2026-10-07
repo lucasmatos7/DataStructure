@@ -10,7 +10,7 @@ typedef struct arvbin{
 
 void TAB_sy_print(TAB *a){
   if(!a) return;
-  printf("%d", a->info);
   TAB_sy_print(a->esq);
+  printf("%d", a->info);
   TAB_sy_print(a->dir);
 }
