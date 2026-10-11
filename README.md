@@ -20,6 +20,7 @@ repository with exercises and implementations in C language
 -Graphs
 -B tree
 -B+ tree
+-Binary file
 
 # Goal
 
