@@ -1,6 +1,9 @@
 //searching_bintree.c
 //searching for an element in a binary tree
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbin{
   int info;
   struct arvbin *esq, *dir;
