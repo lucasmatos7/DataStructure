@@ -1,6 +1,9 @@
 //copying_bintree.c
 //creating a binary tree that is a copy of another binary tree
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbin{
   int info;
   struct arvbin *esq, *dir;
