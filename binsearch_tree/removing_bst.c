@@ -1,6 +1,9 @@
 //removing_bst.c
 //function to remove element(s) of a binary search tree (bst)
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbinbusca{
   int info;
   struct arvbinbusca *esq, *dir;
