@@ -1,6 +1,9 @@
 //levelorder_print.c
 //printing a binary tree in a level-order traversal
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbin{
   int info;
   struct arvbin *esq, *dir;
