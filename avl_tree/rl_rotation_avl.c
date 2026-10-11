@@ -1,6 +1,10 @@
 //rl_rotation_avl.c
 //code of right-left rotation (or better known as Double Left Rotation) in the avl tree
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
 typedef struct avl{
   int info;
   struct avl *esq, *dir;
