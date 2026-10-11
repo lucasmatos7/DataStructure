@@ -1,6 +1,9 @@
 //insertion_bst.c
 //function to insert new element(s) in a binary search tree (bst)
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbinbusca{
   int info;
   struct arvbinbusca *esq, *dir;
