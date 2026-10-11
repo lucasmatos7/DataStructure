@@ -1,5 +1,5 @@
 //lr_rotation_avl.c
-//code of left-right rotation (or most known as Double Right Rotation because of the insertion made in the left son of the left son of the node) in the avl tree
+//code of left-right rotation (or better known as Double Right Rotation) in the avl tree
 
 typedef struct avl{
   int info;
