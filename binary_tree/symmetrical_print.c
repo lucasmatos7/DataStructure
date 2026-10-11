@@ -1,12 +1,13 @@
 //symmetrical_print.c
 //printing a binary tree in a symmetrical way
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbin{
   int info;
   struct arvbin *esq, *dir;
 }TAB;
-
-//recursion way
 
 void TAB_sy_print(TAB *a){
   if(!a) return;
