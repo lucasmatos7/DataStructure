@@ -1,6 +1,9 @@
 //preorder_print.c
 //printing a binary tree in a pre order way
 
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct arvbin{
   int info;
   struct arvbin *esq, *dir;
