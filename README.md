@@ -9,7 +9,6 @@ repository with exercises and implementations in C language
 -Recursion structure
 -Pointer
 -Dynamic memory allocation 
--Abstract Data Type (ADT) structure
 -Linked list
 -Stack
 -Queue
@@ -21,6 +20,8 @@ repository with exercises and implementations in C language
 -B tree
 -B+ tree
 -Binary file
+-Hash Table
+-Heap
 
 # Goal
 
