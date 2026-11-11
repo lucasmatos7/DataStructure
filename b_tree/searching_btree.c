@@ -3,7 +3,7 @@
 
 typedef struct arvb{
   int nchaves;  //number of keys in the node
-  int *chaves;  //which key of the node it is
+  int *chave;  //which key of the node it is
   int folha;  //checks if the node is a leaf
   struct arvb **filho;  //which son of the node it is
 }TARVB;
