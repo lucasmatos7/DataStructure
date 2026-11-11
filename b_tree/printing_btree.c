@@ -3,7 +3,7 @@
 
 typedef struct arvb{
   int nchaves;  
-  int *chaves;  
+  int *chave;  
   int folha;  
   struct arvb **filho;  
 }TARVB;
