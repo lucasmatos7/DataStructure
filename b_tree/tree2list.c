@@ -29,14 +29,12 @@ TLSE* TLSE_insere(TLSE *l, int elem){
 
 TLSE* arvore_pra_lista_aux(TARVB *a, TLSE *l) {
     if (!a) return l;
-
     int i;
-
+    l = arvore_pra_lista_aux(a->filho[a->nchaves], l);
+    
     for (i = a->nchaves; i >= 0; i--) {
+        l = TLSE_insere(l, a->chave[i]);
         l = arvore_pra_lista_aux(a->filho[i], l);
-
-        if (i > 0)
-            l = TLSE_insere(l, a->chave[i-1]);
     }
 
     return l;
@@ -44,5 +42,6 @@ TLSE* arvore_pra_lista_aux(TARVB *a, TLSE *l) {
 
 TLSE* arvore_pra_lista(TARVB *a) {
     TLSE *l = TLSE_inicializa();
+    if(!a) return l;
     return arvore_pra_lista_aux(a, l);
 }
